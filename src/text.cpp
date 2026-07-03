@@ -15,3 +15,18 @@ std::string utils::to_upper(const std::string& text)
 	);
 	return result;
 }
+
+std::string utils::to_lower(const std::string& text)
+{
+	std::string result = text;
+	std::transform(
+		result.begin(),
+		result.end(),
+		result.begin(),
+		[](char c)
+		{
+			return static_cast<char>(std::tolower(c));
+		}
+	);
+	return result;
+}

@@ -8,6 +8,7 @@
 namespace utils
 {
 	std::string to_upper(const std::string& text);
+	std::string to_lower(const std::string& text);
 
 }
 
