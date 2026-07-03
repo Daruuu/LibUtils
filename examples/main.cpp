@@ -1,6 +1,9 @@
+#include <iostream>
 #include "../include/utils/text.hpp"
 
-int main(int argc, char* argv[])
+
+int main()
 {
+	std::cout << "LibUtils works! :)\n" ;
 	return 0;
 }
