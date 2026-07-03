@@ -1,0 +1,4 @@
+#ifndef LIBUTILS_TEXT_HPP
+#define LIBUTILS_TEXT_HPP
+
+#endif //LIBUTILS_TEXT_HPP
